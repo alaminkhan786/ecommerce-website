@@ -5,8 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tailwind.css">
     <title>Ecmmerce Website</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+
 </head>
-<body>
-    <h1 class="bg-green-600">Bismillah</h1>
+<body class="bg-gray-100">
+    <div class="container w-screen px-36">
+
+        <!-- nav start -->
+
+        <nav class="flex justify-between items-center py-10">
+            <div class="logo flex items-center">
+                <p class="inter-font text-[32px]"><span class="text-[#FC6320]">e</span>Com</p>
+                <img  src="images/logo.png" alt="logo">
+            </div>
+
+            <div class="list">
+                <ul class="flex items-center gap-10  text-[16px] ">
+                    <li class="font-bold text-[#FC6320] bg-[#FC63201A] px-4 py-2 rounded-lg border"><a href="#">Home</a></li>
+                    <li class="font-medium text-[#0F0E0E99]"><a href="#">Shop</a></li>
+                    <li class="font-medium text-[#0F0E0E99]"><a href="#">App Products</a></li>
+                    <li class="font-medium text-[#0F0E0E99]"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="social-media flex items-center gap-6">
+                <img class="w-6 h-6" src="images/facebook.png" alt="facebook">
+                <img class="w-6 h-6" src="images/instagram.png" alt="instagram">
+                <img class="w-6 h-[26px]" src="images/x.png" alt="twitter">
+            </div>
+        </nav>
+
+        <!-- nav end -->
+
+        <!-- banner start -->
+
+        <div class="banner relative flex justify-center items-center">
+            <div class="banner-image ">
+                <img src="images/banner.png" alt="">
+            </div>
+
+            <div class="banner-text urbanist-font w-full h-full absolute bg-gradient-to-r from-[#0F0E0E00] to-[#0F0E0EB2] bg-opacity-70 rounded-3xl text-center text-white px-32 py-24">
+                <p class="text-5xl leading-[72px]">Don&apos;t Miss Out on These Unbeatable <br> Black Friday Deals</p>
+                <p class="text-lg font-medium leading-[30px] py-4">Save big this Block Friday with unbeatable deals on tech, home essentials, <br>fashion, and more! Limited stock.</p>
+
+                <button class="px-6 py-3 mx-3 bg-[#FC6320] font-semibold rounded-lg">Explore Deal</button>
+                <button class="px-6 py-3 bg-white bg-opacity-20 font-semibold rounded-lg border ">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- banner end -->
+
+
+
+    </div>
 </body>
 </html>
